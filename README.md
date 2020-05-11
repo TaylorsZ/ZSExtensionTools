@@ -9,12 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
-ExtensionTools is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'ExtensionTools'
@@ -22,7 +19,7 @@ pod 'ExtensionTools'
 
 ## Author
 
-zhangs1992@126.com, zhangs1992@126.com
+zhangs1992@126.com
 
 ## License
 

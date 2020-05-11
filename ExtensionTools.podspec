@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ExtensionTools'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ExtensionTools.'
+  s.summary          = '开发中常用的类扩展'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,14 +21,14 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zhangs1992@126.com/ExtensionTools'
+  s.homepage         = 'https://github.com/TaylorsZ/ZSExtensionTools.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zhangs1992@126.com' => 'zhangs1992@126.com' }
-  s.source           = { :git => 'https://github.com/zhangs1992@126.com/ExtensionTools.git', :tag => s.version.to_s }
+  s.author           = { 'Taylor' => 'zhangs1992@126.com' }
+  s.source           = { :git => 'https://github.com/TaylorsZ/ZSExtensionTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'ExtensionTools/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
